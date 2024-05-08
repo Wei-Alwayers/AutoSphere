@@ -103,7 +103,7 @@ def get_cars(request):
 
 
 # Update the `get_dealerships` view to render a list of dealerships.
-# By default, it renders all dealerships, but if a state is passed, 
+# By default, it renders all dealerships, but if a state is passed,
 # it renders dealerships in that particular state.
 def get_dealerships(request, state="All"):
     if (state == "All"):

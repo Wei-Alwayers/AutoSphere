@@ -21,7 +21,7 @@ urlpatterns = [
         view=views.get_dealerships,
         name='get_dealers_by_state'
     ),
-    # path for get dealer details    
+    # path for get dealer details   
     path(
         route='dealer/<int:dealer_id>',
         view=views.get_dealer_details,
